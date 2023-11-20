@@ -4,13 +4,42 @@
   "description": "Bytes to human readable size",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha index.test.js"
   },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiestaCat/js-human-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SiestaCat/js-human-size/issues"
+  },
+  "homepage": "https://github.com/SiestaCat/js-human-size#readme",
   "keywords": [
     "bytes",
     "human",
     "readable"
   ],
-  "author": "Marco iosif Constantinescu",
-  "license": "MIT"
+  "author": "Marco iosif Constantinescu <marco.isfc@gmail.com>",
+  "license": "MIT",
+  "auto-changelog": {
+    "output": "CHANGELOG.md",
+    "template": "keepachangelog",
+    "unreleased": false,
+    "commitLimit": false,
+    "backfillLimit": false,
+    "hideCredit": true
+  },
+  "publishConfig": {
+    "ignore": [
+      ".github/workflows"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
 }
