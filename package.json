@@ -1,0 +1,16 @@
+{
+  "name": "js-human-size",
+  "version": "1.0.0",
+  "description": "Bytes to human readable size",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "bytes",
+    "human",
+    "readable"
+  ],
+  "author": "Marco iosif Constantinescu",
+  "license": "MIT"
+}
