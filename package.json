@@ -1,5 +1,5 @@
 {
-  "name": "js-human-size",
+  "name": "bytes-human-readable",
   "version": "1.0.0",
   "description": "Bytes to human readable size",
   "main": "index.js",
