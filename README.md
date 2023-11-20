@@ -19,3 +19,11 @@ console.log(humanFileSize(67229, false)); //65.7 KiB
 
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
+
+[package-url]: https://npmjs.org/package/bytes-human-readable
+[npm-version-svg]: https://versionbadg.es/SiestaCat/js-human-size.svg
+[npm-badge-png]: https://nodei.co/npm/bytes-human-readable.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/bytes-human-readable.svg
+[license-url]: LICENSE
+[downloads-image]: https://img.shields.io/npm/dm/bytes-human-readable.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=bytes-human-readable
